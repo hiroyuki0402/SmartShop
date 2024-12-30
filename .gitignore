@@ -1,0 +1,45 @@
+# 共通設定
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.tmp
+*.bak
+*.backup
+Thumbs.db
+
+# SmartShop (Swiftプロジェクト)
+SmartShop/DerivedData/
+SmartShop/.idea/
+SmartShop/*.xcworkspace
+SmartShop/*.xcuserstate
+SmartShop/*.xcodeproj/*
+!SmartShop/*.xcodeproj/project.pbxproj
+!SmartShop/*.xcodeproj/xcshareddata/
+!SmartShop/*.xcodeproj/xcshareddata/**/*
+!SmartShop/*.xcodeproj/xcuserdata/
+SmartShop/build/
+SmartShop/*.app
+SmartShop/*.ipa
+SmartShop/*.dSYM
+SmartShop/Pods/
+SmartShop/*.lock
+SmartShop/.build/
+SmartShop/Packages/
+SmartShop/Package.resolved
+
+# SmartShop-Server (Node.jsプロジェクト)
+SmartShop-Server/node_modules/
+SmartShop-Server/npm-debug.log*
+SmartShop-Server/yarn-debug.log*
+SmartShop-Server/yarn-error.log*
+SmartShop-Server/logs/
+SmartShop-Server/*.log
+SmartShop-Server/debug.log
+SmartShop-Server/*.pid
+SmartShop-Server/*.seed
+SmartShop-Server/*.pid.lock
+SmartShop-Server/.env
+SmartShop-Server/.env.*
+SmartShop-Server/dist/
+SmartShop-Server/build/
