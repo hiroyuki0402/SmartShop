@@ -20,18 +20,18 @@ jobs:
       # アプリをビルド
       - name: Build the app
         run: |
-          xcodebuild -project SmartShop.xcodeproj \
+          xcodebuild -project SmartShop/SmartShop.xcodeproj \
                      -scheme SmartShop \
                      -sdk iphonesimulator \
                      -configuration Debug \
-                     -derivedDataPath build
+                     -derivedDataPath SmartShop/build
 
       # テストを実行
       - name: Run tests
         run: |
           xcodebuild test \
-                     -project SmartShop.xcodeproj \
+                     -project SmartShop/SmartShop.xcodeproj \
                      -scheme SmartShop \
                      -sdk iphonesimulator \
                      -destination 'platform=iOS Simulator,name=iPhone 14' \
-                     -derivedDataPath build
+                     -derivedDataPath SmartShop/build
