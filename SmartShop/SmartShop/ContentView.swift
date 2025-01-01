@@ -1,13 +1,9 @@
-//
-//  ContentView.swift
-//  SmartShop
-//
-//  Created by SHIRAISHI HIROYUKI on 2024/12/30.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+
+    @Environment(\.authorizationController) private var authorizationController
+
     var body: some View {
         VStack {
             Image(systemName: "globe")
