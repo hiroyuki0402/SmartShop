@@ -1,0 +1,37 @@
+name: Build and Test SmartShop App
+
+on:
+  push:
+    branches:
+      - develop
+
+jobs:
+  build:
+    runs-on: macos-latest
+    env:
+      BASE_URL: ${{ secrets.BASE_URL }}
+      API_KEY: ${{ secrets.USERAPIKEY }}
+
+    steps:
+      # リポジトリをチェックアウト
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      # アプリをビルド
+      - name: Build the app
+        run: |
+          xcodebuild -project SmartShop.xcodeproj \
+                     -scheme SmartShop \
+                     -sdk iphonesimulator \
+                     -configuration Debug \
+                     -derivedDataPath build
+
+      # テストを実行
+      - name: Run tests
+        run: |
+          xcodebuild test \
+                     -project SmartShop.xcodeproj \
+                     -scheme SmartShop \
+                     -sdk iphonesimulator \
+                     -destination 'platform=iOS Simulator,name=iPhone 14' \
+                     -derivedDataPath build
