@@ -35,9 +35,22 @@
 		3B68B1B52D227E5500C4B593 /* SmartShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		3B5A64E32D2458480084E875 /* Exceptions for "SmartShop" folder in "SmartShop" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Helper/Untitled.swift,
+			);
+			target = 3B68B19A2D227E5300C4B593 /* SmartShop */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		3B68B19D2D227E5300C4B593 /* SmartShop */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3B5A64E32D2458480084E875 /* Exceptions for "SmartShop" folder in "SmartShop" target */,
+			);
 			path = SmartShop;
 			sourceTree = "<group>";
 		};

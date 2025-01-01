@@ -1,0 +1,38 @@
+name: Build and Test SmartShop App
+
+on:
+  push:
+    branches:
+      - develop
+
+jobs:
+  build:
+    runs-on: macos-latest
+    env:
+      BASE_URL: ${{ secrets.BASE_URL }}
+      API_KEY: ${{ secrets.USERAPIKEY }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: |
+          pod install
+
+      - name: Build the app
+        run: |
+          xcodebuild -workspace SmartShop.xcworkspace \
+                     -scheme SmartShop \
+                     -sdk iphonesimulator \
+                     -configuration Debug \
+                     -derivedDataPath build
+
+      - name: Run tests
+        run: |
+          xcodebuild test \
+                     -workspace SmartShop.xcworkspace \
+                     -scheme SmartShop \
+                     -sdk iphonesimulator \
+                     -destination 'platform=iOS Simulator,name=iPhone 14' \
+                     -derivedDataPath build

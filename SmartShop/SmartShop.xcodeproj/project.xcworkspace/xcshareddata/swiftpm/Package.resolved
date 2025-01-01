@@ -1,5 +1,5 @@
 {
-  "originHash" : "3c3fe903f17b73b9a94a6f9d1f98c59fec1d87f037aec6413a0063f1700b0ac8",
+  "originHash" : "e83df4dcd7f7fe9dbc74e76df4212533f2906688969525687a13f5e15e856226",
   "pins" : [
     {
       "identity" : "collectionconcurrencykit",
@@ -43,7 +43,7 @@
       "location" : "https://github.com/hiroyuki0402/MyLibrary",
       "state" : {
         "branch" : "main",
-        "revision" : "a20453d14bc6f35136d957ca8dce43d1c71fc03f"
+        "revision" : "c0e7ef72eeda71c13e328b494dd0258d07ad1c95"
       }
     },
     {
