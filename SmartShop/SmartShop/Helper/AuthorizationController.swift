@@ -15,3 +15,9 @@ struct AuthorizationController {
         return response
     }
 }
+
+extension AuthorizationController {
+    static var develop: AuthorizationController {
+        AuthorizationController(httpClient: HTTPClient())
+    }
+}
