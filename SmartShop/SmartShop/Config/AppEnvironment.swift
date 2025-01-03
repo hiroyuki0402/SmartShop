@@ -18,5 +18,5 @@ struct Configuration {
 }
 
 struct TestAPI {
-    static let register: URL = URL(string: "https://localhost:8080/api/auth/register")!
+    static let register: URL = URL(string: "http://localhost:8080/api/auth/register")!
 }
