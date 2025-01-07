@@ -28,6 +28,8 @@ struct RegistrationView: View {
         }
     }
 }
+
+
 #Preview {
     RegistrationView(store: .init(initialState: RegisterReducer.State(), reducer: {
         RegisterReducer()
