@@ -14,6 +14,18 @@ struct AuthorizationController {
 
         return response
     }
+
+    func login(username: String, password: String) async throws -> LoginData? {
+
+        let body = ["username": username ,"password": password]
+        let data = try JSONEncoder().encode(body)
+
+        let resource: APIResource = .init(url: TestAPI.login, method: .post(data), modelType: LoginData.self)
+        let response = try await APIManager.shared.callAPIUsingAsync(resource)
+
+        return response
+    }
+
 }
 
 extension AuthorizationController {

@@ -3,4 +3,334 @@
    uuid = "9A265C28-F01B-4AD6-ABDA-C8D024A80B0F"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "97382C59-BFA5-4B14-80D4-CFA7D5015555"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SmartShop/Feature/Login/LoginReducer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "97382C59-BFA5-4B14-80D4-CFA7D5015555 - ccf447a6bf87f764"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable (ComposableArchitecture.Send&lt;SmartShop.LoginAction&gt;) async -&gt; () in closure #1 (inout SmartShop.LoginState, SmartShop.LoginAction) -&gt; ComposableArchitecture.Effect&lt;SmartShop.LoginAction&gt; in SmartShop.LoginReducer.body.getter : some"
+                  moduleName = "SmartShop.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shiraishihiroyuki/Desktop/%E5%AE%9F%E8%A3%85/Private%20/SmartShop/SmartShop/SmartShop/Feature/Login/LoginReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36">
+               </Location>
+               <Location
+                  uuid = "97382C59-BFA5-4B14-80D4-CFA7D5015555 - ccf447a6bf87f764"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable (ComposableArchitecture.Send&lt;SmartShop.LoginAction&gt;) async -&gt; () in closure #1 (inout SmartShop.LoginState, SmartShop.LoginAction) -&gt; ComposableArchitecture.Effect&lt;SmartShop.LoginAction&gt; in SmartShop.LoginReducer.body.getter : some"
+                  moduleName = "SmartShop.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shiraishihiroyuki/Desktop/%E5%AE%9F%E8%A3%85/Private%20/SmartShop/SmartShop/SmartShop/Feature/Login/LoginReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36">
+               </Location>
+               <Location
+                  uuid = "97382C59-BFA5-4B14-80D4-CFA7D5015555 - ccf447a6bf87f764"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable (ComposableArchitecture.Send&lt;SmartShop.LoginAction&gt;) async -&gt; () in closure #1 (inout SmartShop.LoginState, SmartShop.LoginAction) -&gt; ComposableArchitecture.Effect&lt;SmartShop.LoginAction&gt; in SmartShop.LoginReducer.body.getter : some"
+                  moduleName = "SmartShop.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shiraishihiroyuki/Desktop/%E5%AE%9F%E8%A3%85/Private%20/SmartShop/SmartShop/SmartShop/Feature/Login/LoginReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36">
+               </Location>
+               <Location
+                  uuid = "97382C59-BFA5-4B14-80D4-CFA7D5015555 - ccf447a6bf87f764"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable (ComposableArchitecture.Send&lt;SmartShop.LoginAction&gt;) async -&gt; () in closure #1 (inout SmartShop.LoginState, SmartShop.LoginAction) -&gt; ComposableArchitecture.Effect&lt;SmartShop.LoginAction&gt; in SmartShop.LoginReducer.body.getter : some"
+                  moduleName = "SmartShop.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shiraishihiroyuki/Desktop/%E5%AE%9F%E8%A3%85/Private%20/SmartShop/SmartShop/SmartShop/Feature/Login/LoginReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6FC10C3B-5563-49C4-A1B2-FBEF86698A36"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SmartShop/Feature/Login/LoginReducer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "6FC10C3B-5563-49C4-A1B2-FBEF86698A36 - ccf447a6bf87f764"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable (ComposableArchitecture.Send&lt;SmartShop.LoginAction&gt;) async -&gt; () in closure #1 (inout SmartShop.LoginState, SmartShop.LoginAction) -&gt; ComposableArchitecture.Effect&lt;SmartShop.LoginAction&gt; in SmartShop.LoginReducer.body.getter : some"
+                  moduleName = "SmartShop.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shiraishihiroyuki/Desktop/%E5%AE%9F%E8%A3%85/Private%20/SmartShop/SmartShop/SmartShop/Feature/Login/LoginReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36">
+               </Location>
+               <Location
+                  uuid = "6FC10C3B-5563-49C4-A1B2-FBEF86698A36 - ccf447a6bf87f764"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable (ComposableArchitecture.Send&lt;SmartShop.LoginAction&gt;) async -&gt; () in closure #1 (inout SmartShop.LoginState, SmartShop.LoginAction) -&gt; ComposableArchitecture.Effect&lt;SmartShop.LoginAction&gt; in SmartShop.LoginReducer.body.getter : some"
+                  moduleName = "SmartShop.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shiraishihiroyuki/Desktop/%E5%AE%9F%E8%A3%85/Private%20/SmartShop/SmartShop/SmartShop/Feature/Login/LoginReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36">
+               </Location>
+               <Location
+                  uuid = "6FC10C3B-5563-49C4-A1B2-FBEF86698A36 - ccf447a6bf87f764"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable (ComposableArchitecture.Send&lt;SmartShop.LoginAction&gt;) async -&gt; () in closure #1 (inout SmartShop.LoginState, SmartShop.LoginAction) -&gt; ComposableArchitecture.Effect&lt;SmartShop.LoginAction&gt; in SmartShop.LoginReducer.body.getter : some"
+                  moduleName = "SmartShop.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shiraishihiroyuki/Desktop/%E5%AE%9F%E8%A3%85/Private%20/SmartShop/SmartShop/SmartShop/Feature/Login/LoginReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36">
+               </Location>
+               <Location
+                  uuid = "6FC10C3B-5563-49C4-A1B2-FBEF86698A36 - ccf447a6bf87f764"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable (ComposableArchitecture.Send&lt;SmartShop.LoginAction&gt;) async -&gt; () in closure #1 (inout SmartShop.LoginState, SmartShop.LoginAction) -&gt; ComposableArchitecture.Effect&lt;SmartShop.LoginAction&gt; in SmartShop.LoginReducer.body.getter : some"
+                  moduleName = "SmartShop.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shiraishihiroyuki/Desktop/%E5%AE%9F%E8%A3%85/Private%20/SmartShop/SmartShop/SmartShop/Feature/Login/LoginReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9DDFF2BD-392C-45A8-AEA4-31ED7EAF3CA7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SmartShop/Feature/Login/LoginReducer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "9DDFF2BD-392C-45A8-AEA4-31ED7EAF3CA7 - ccf447a6bf87f46c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable (ComposableArchitecture.Send&lt;SmartShop.LoginAction&gt;) async -&gt; () in closure #1 (inout SmartShop.LoginState, SmartShop.LoginAction) -&gt; ComposableArchitecture.Effect&lt;SmartShop.LoginAction&gt; in SmartShop.LoginReducer.body.getter : some"
+                  moduleName = "SmartShop.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shiraishihiroyuki/Desktop/%E5%AE%9F%E8%A3%85/Private%20/SmartShop/SmartShop/SmartShop/Feature/Login/LoginReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44">
+               </Location>
+               <Location
+                  uuid = "9DDFF2BD-392C-45A8-AEA4-31ED7EAF3CA7 - ccf447a6bf87f46c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable (ComposableArchitecture.Send&lt;SmartShop.LoginAction&gt;) async -&gt; () in closure #1 (inout SmartShop.LoginState, SmartShop.LoginAction) -&gt; ComposableArchitecture.Effect&lt;SmartShop.LoginAction&gt; in SmartShop.LoginReducer.body.getter : some"
+                  moduleName = "SmartShop.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shiraishihiroyuki/Desktop/%E5%AE%9F%E8%A3%85/Private%20/SmartShop/SmartShop/SmartShop/Feature/Login/LoginReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B8806773-DFDD-4EC4-9885-35B9E8191C3B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SmartShop/Feature/Login/LoginReducer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "B8806773-DFDD-4EC4-9885-35B9E8191C3B - 39a8c8be2e8e1426"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (inout SmartShop.LoginState, SmartShop.LoginAction) -&gt; ComposableArchitecture.Effect&lt;SmartShop.LoginAction&gt; in SmartShop.LoginReducer.body.getter : some"
+                  moduleName = "SmartShop.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shiraishihiroyuki/Desktop/%E5%AE%9F%E8%A3%85/Private%20/SmartShop/SmartShop/SmartShop/Feature/Login/LoginReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28">
+               </Location>
+               <Location
+                  uuid = "B8806773-DFDD-4EC4-9885-35B9E8191C3B - 1681cb54fec61fd4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (ComposableArchitecture.Send&lt;SmartShop.LoginAction&gt;) async -&gt; () in closure #1 (inout SmartShop.LoginState, SmartShop.LoginAction) -&gt; ComposableArchitecture.Effect&lt;SmartShop.LoginAction&gt; in SmartShop.LoginReducer.body.getter : some"
+                  moduleName = "SmartShop.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shiraishihiroyuki/Desktop/%E5%AE%9F%E8%A3%85/Private%20/SmartShop/SmartShop/SmartShop/Feature/Login/LoginReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28">
+               </Location>
+               <Location
+                  uuid = "B8806773-DFDD-4EC4-9885-35B9E8191C3B - 118b0541c3147252"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable (ComposableArchitecture.Send&lt;SmartShop.LoginAction&gt;) async -&gt; () in closure #1 (inout SmartShop.LoginState, SmartShop.LoginAction) -&gt; ComposableArchitecture.Effect&lt;SmartShop.LoginAction&gt; in SmartShop.LoginReducer.body.getter : some"
+                  moduleName = "SmartShop.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shiraishihiroyuki/Desktop/%E5%AE%9F%E8%A3%85/Private%20/SmartShop/SmartShop/SmartShop/Feature/Login/LoginReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A3C9137D-6930-4FD0-9627-A309D3A36312"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SmartShop/Feature/Login/LoginReducer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "A3C9137D-6930-4FD0-9627-A309D3A36312 - 118b0541c31472f1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable (ComposableArchitecture.Send&lt;SmartShop.LoginAction&gt;) async -&gt; () in closure #1 (inout SmartShop.LoginState, SmartShop.LoginAction) -&gt; ComposableArchitecture.Effect&lt;SmartShop.LoginAction&gt; in SmartShop.LoginReducer.body.getter : some"
+                  moduleName = "SmartShop.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shiraishihiroyuki/Desktop/%E5%AE%9F%E8%A3%85/Private%20/SmartShop/SmartShop/SmartShop/Feature/Login/LoginReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31">
+               </Location>
+               <Location
+                  uuid = "A3C9137D-6930-4FD0-9627-A309D3A36312 - 69566a015b50e33b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 @Sendable (ComposableArchitecture.Send&lt;SmartShop.LoginAction&gt;) async -&gt; () in closure #1 (inout SmartShop.LoginState, SmartShop.LoginAction) -&gt; ComposableArchitecture.Effect&lt;SmartShop.LoginAction&gt; in SmartShop.LoginReducer.body.getter : some"
+                  moduleName = "SmartShop.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shiraishihiroyuki/Desktop/%E5%AE%9F%E8%A3%85/Private%20/SmartShop/SmartShop/SmartShop/Feature/Login/LoginReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31">
+               </Location>
+               <Location
+                  uuid = "A3C9137D-6930-4FD0-9627-A309D3A36312 - ccf447a6bf87f6df"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable (ComposableArchitecture.Send&lt;SmartShop.LoginAction&gt;) async -&gt; () in closure #1 (inout SmartShop.LoginState, SmartShop.LoginAction) -&gt; ComposableArchitecture.Effect&lt;SmartShop.LoginAction&gt; in SmartShop.LoginReducer.body.getter : some"
+                  moduleName = "SmartShop.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shiraishihiroyuki/Desktop/%E5%AE%9F%E8%A3%85/Private%20/SmartShop/SmartShop/SmartShop/Feature/Login/LoginReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31">
+               </Location>
+               <Location
+                  uuid = "A3C9137D-6930-4FD0-9627-A309D3A36312 - bc926b9837152068"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(8) suspend resume partial function for closure #1 @Sendable (ComposableArchitecture.Send&lt;SmartShop.LoginAction&gt;) async -&gt; () in closure #1 (inout SmartShop.LoginState, SmartShop.LoginAction) -&gt; ComposableArchitecture.Effect&lt;SmartShop.LoginAction&gt; in SmartShop.LoginReducer.body.getter : some"
+                  moduleName = "SmartShop.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shiraishihiroyuki/Desktop/%E5%AE%9F%E8%A3%85/Private%20/SmartShop/SmartShop/SmartShop/Feature/Login/LoginReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

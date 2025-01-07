@@ -4,7 +4,9 @@ import SwiftUI
 struct SmartShopApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LoginView(store: .init(initialState: LoginReducer.State(), reducer: {
+                LoginReducer()
+            }))
         }
     }
 }
