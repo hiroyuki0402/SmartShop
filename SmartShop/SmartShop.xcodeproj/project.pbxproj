@@ -10,6 +10,7 @@
 		3B68B1CB2D227F2500C4B593 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 3B68B1CA2D227F2500C4B593 /* Kingfisher */; };
 		3B68B1CE2D227F3700C4B593 /* MyLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 3B68B1CD2D227F3700C4B593 /* MyLibrary */; };
 		3B68B1D12D227F5C00C4B593 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 3B68B1D02D227F5C00C4B593 /* ComposableArchitecture */; };
+		3BA0D1BA2D2F29C500110541 /* JWTDecode in Frameworks */ = {isa = PBXBuildFile; productRef = 3BA0D1B92D2F29C500110541 /* JWTDecode */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 			files = (
 				3B68B1CE2D227F3700C4B593 /* MyLibrary in Frameworks */,
 				3B68B1CB2D227F2500C4B593 /* Kingfisher in Frameworks */,
+				3BA0D1BA2D2F29C500110541 /* JWTDecode in Frameworks */,
 				3B68B1D12D227F5C00C4B593 /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -100,6 +102,7 @@
 				3B68B19D2D227E5300C4B593 /* SmartShop */,
 				3B68B1AE2D227E5500C4B593 /* SmartShopTests */,
 				3B68B1B82D227E5500C4B593 /* SmartShopUITests */,
+				3BA0D1B82D2F29C500110541 /* Frameworks */,
 				3B68B19C2D227E5300C4B593 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -112,6 +115,13 @@
 				3B68B1B52D227E5500C4B593 /* SmartShopUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		3BA0D1B82D2F29C500110541 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +147,7 @@
 				3B68B1CA2D227F2500C4B593 /* Kingfisher */,
 				3B68B1CD2D227F3700C4B593 /* MyLibrary */,
 				3B68B1D02D227F5C00C4B593 /* ComposableArchitecture */,
+				3BA0D1B92D2F29C500110541 /* JWTDecode */,
 			);
 			productName = SmartShop;
 			productReference = 3B68B19B2D227E5300C4B593 /* SmartShop.app */;
@@ -225,6 +236,7 @@
 				3B68B1C92D227F2500C4B593 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 				3B68B1CC2D227F3700C4B593 /* XCRemoteSwiftPackageReference "MyLibrary" */,
 				3B68B1CF2D227F5C00C4B593 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				3BA0D1B52D2F284200110541 /* XCRemoteSwiftPackageReference "JWTDecode" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 3B68B19C2D227E5300C4B593 /* Products */;
@@ -625,6 +637,14 @@
 				minimumVersion = 1.17.0;
 			};
 		};
+		3BA0D1B52D2F284200110541 /* XCRemoteSwiftPackageReference "JWTDecode" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/auth0/JWTDecode.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.2.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -642,6 +662,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 3B68B1CF2D227F5C00C4B593 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
 			productName = ComposableArchitecture;
+		};
+		3BA0D1B92D2F29C500110541 /* JWTDecode */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3BA0D1B52D2F284200110541 /* XCRemoteSwiftPackageReference "JWTDecode" */;
+			productName = JWTDecode;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

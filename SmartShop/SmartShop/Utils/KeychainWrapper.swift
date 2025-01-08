@@ -22,7 +22,7 @@ struct KeychainWrapper<T: Codable> {
         }
     }
 
-    static func get(_ value: T, for key: String) -> T? {
+    static func get(for key: String) -> T? {
         let query: [CFString: Any] = [
             kSecClass: kSecClassGenericPassword,
             kSecAttrAccount: key,

@@ -44,12 +44,12 @@ exports.login = async (req, res) => {
         }
 
         /// ユーザーIDをペイロードに含めたJWTトークンを生成する
-        const taken = jwt.sign({ username: existingUser.id }, 'SECRETKEY', {
+        const token = jwt.sign({ username: existingUser.id }, 'SECRETKEY', {
             expiresIn: '1h'
         })
 
         /// 認証成功時に、ユーザー情報と生成したトークンをレスポンスとして返す
-        return res.status(200).json({ userId: existingUser.id, username: existingUser.username, taken, success: true })
+        return res.status(200).json({ userId: existingUser.id, username: existingUser.username, token, success: true })
     } catch {
         /// サーバー内部エラーが発生した場合、エラーレスポンスを返す
         return res.status(500).json({ message: "サーバ内部エラーが発生しました", success: false })

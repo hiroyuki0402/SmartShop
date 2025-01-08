@@ -19,7 +19,7 @@ struct LoginReducer {
                 }
             case .saveStorage(let userId):
                 @AppStorage("userID") var userId: Int = userId
-//                state.userId = userId
+                state.userID = userId
 
             case .request(let controller):
                 let username = state.email
@@ -33,13 +33,13 @@ struct LoginReducer {
                             password: password
                         )
 
-                        guard let result = result, let token = result.token, let userId = result.userId, result.success else {
+                        guard let result = result, let token = result.token, result.success else {
                             let errorReponse = ErrorReponse(message: result?.message)
                             await send(.loginFailed(errorReponse))
                             return
                         }
-                        print(token)
-                      //  KeychainWrapper.set(token, for: "jwttoken")
+
+                        KeychainWrapper.set(token, for: "jwttoken")
 
                         if let userId = result.userId {
                             await send(.saveStorage(userId))
