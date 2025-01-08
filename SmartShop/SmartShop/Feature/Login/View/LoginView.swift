@@ -6,24 +6,29 @@ struct LoginView: View {
     @State var store: StoreOf<LoginReducer>
 
     var body: some View {
+        NavigationStack {
             Form {
                 TextField("Email", text: $store.email)
                     .textInputAutocapitalization(.never)
                     .onChange(of: store.email) { oldValue, newValue in
                         store.send(.formValid)
                     }
-
+                
                 SecureField("Password", text: $store.password)
                     .onChange(of: store.password) { oldValue, newValue in
                         store.send(.formValid)
                     }
-
+                
                 Button("ログイン") {
                     store.send(.request(authorizationController))
                 }
                 .disabled(!store.isFormValid)
             }
+            .navigationDestination(item: $store.userID) { _ in
+                Text("ホーム画面作成")
+            }
             .navigationTitle("登録画面")
+        }
         }
 }
 
