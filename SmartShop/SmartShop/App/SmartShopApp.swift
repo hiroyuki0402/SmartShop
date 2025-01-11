@@ -29,8 +29,10 @@ struct SmartShopApp: App {
     private func navigateBasedOnSession() -> some View {
         Group {
             if isSessionExpired() {
-                // TODO:
-                Text("ホーム画面")
+                MainTabView(store: .init(initialState: MainTabReducer.State(), reducer: {
+                    MainTabReducer()
+                }))
+                .environment(\.authorizationController, .develop)
             } else {
                 LoginView(store: .init(initialState: LoginReducer.State(), reducer: {
                     LoginReducer()
