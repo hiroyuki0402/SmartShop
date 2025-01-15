@@ -8,4 +8,6 @@ struct MainTabState: Equatable {
     var myproductsState = MyProductsState()
     var mypageState = MypageState()
     var cartState = CartState()
+    var loginState = LoginState()
+    var isAuthenticated = false
 }

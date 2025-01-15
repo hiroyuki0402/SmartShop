@@ -8,4 +8,9 @@ enum LoginAction: BindableAction {
     case loginSucceeded(LoginData?)
     case loginFailed(ErrorReponse?)
     case saveStorage(Int)
+    case delegate(LoginDelegate)
+
+    enum LoginDelegate {
+        case loginSucceeded
+    }
 }

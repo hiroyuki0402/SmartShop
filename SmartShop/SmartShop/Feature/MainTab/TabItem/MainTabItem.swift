@@ -38,7 +38,9 @@ enum MainTabItem: Hashable, Identifiable, CaseIterable {
 
         case .myproduct:
             MyProductsView(store: store.scope(state: \.myproductsState, action: \.myproductsAction))
-                .requiresAuthentification()
+                .requiresAuthentification(
+                    store: store.scope(state: \.loginState, action: \.loginAction)
+                )
 
         case .cart:
             CartView(store: store.scope(state: \.cartState, action: \.cartAction))
