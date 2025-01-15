@@ -5,6 +5,8 @@ struct MypageView: View {
     var store: StoreOf<MypageReducer>
 
     var body: some View {
-        Text("MypageView")
+        Button("ログアウト") {
+            let _ = KeychainWrapper<String>.delete(key: "jwttoken")
+        }
     }
 }

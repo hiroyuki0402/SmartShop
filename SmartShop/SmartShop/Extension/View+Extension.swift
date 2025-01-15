@@ -1,7 +1,8 @@
 import SwiftUI
+import ComposableArchitecture
 
 extension View {
-    func requiresAuthentification() -> some View {
-        modifier(RequireAuthenticationModifire())
+    func requiresAuthentification(store: StoreOf<LoginReducer>) -> some View {
+        self.modifier(RequireAuthenticationModifire(store: store))
     }
 }

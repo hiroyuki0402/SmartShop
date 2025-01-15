@@ -43,6 +43,7 @@ struct LoginReducer {
 
                         if let userId = result.userId {
                             await send(.saveStorage(userId))
+                            await send(.delegate(.loginSucceeded))
                         }
 
 

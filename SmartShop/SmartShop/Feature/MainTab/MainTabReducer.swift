@@ -12,6 +12,7 @@ struct MainTabReducer {
         case myproductsAction(MyProductsAction)
         case mypageAction(MypageAction)
         case cartAction(CartAction)
+        case loginAction(LoginAction)
     }
 
     var body: some ReducerOf<Self> {
@@ -33,11 +34,32 @@ struct MainTabReducer {
             CartReducer()
         }
 
+        Scope(state: \.loginState, action: \.loginAction) {
+            LoginReducer()
+        }
+
         Reduce { state, action in
             switch action {
+
             case let .selectedTab(tab):
                 state.selectedTab = tab
                 return .none
+
+            case .loginAction(let delegate):
+
+                if case let .delegate(delegateAction) = delegate {
+
+                    switch delegateAction {
+
+                    case .loginSucceeded:
+                        state.isAuthenticated = true
+
+                        return .none
+                    }
+                } else {
+                    return .none
+                }
+
 
             default:
                 return .none
